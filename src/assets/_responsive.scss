@@ -1,0 +1,15 @@
+$breakpoints:(
+    // スマホ縦画面対応
+    'sm':'(max-width:430px)',
+    // タブレットサイズ対応
+    'md':'(max-width:960px)',
+    // ノートパソコン対応
+    'lg':'(max-width:1280px)',
+    // それ以上はデフォルト
+);
+
+@mixin mq($breakpoint:md){
+    @media #{map-get($breakpoints,$breakpoint)}{
+        @content;
+    }
+}

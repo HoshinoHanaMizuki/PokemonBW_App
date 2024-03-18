@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.card {
+  position: relative;
+  width: 290px;
+  box-shadow: 8px 18px 15px -5px #ffe5e5;
+  border-radius: 30px;
+  background-color: aliceblue;
+}
+
+.voicePlayButton {
+  position: absolute;
+  top: 7%;
+  right: 10%;
+}
+
+.cardImgContainer {
+  position: relative;
+}
+.cardImgContainer img {
+  scale: 1.2;
+}
+.cardImgContainer img:hover {
+  cursor: pointer;
+  animation: pokemonAnimate 2s ease 0.3s 1;
+}
+.cardImgContainer .hoverText {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50% -50%);
+  font-size: 10px;
+  display: none;
+}
+.cardImgContainer:hover .hoverText {
+  display: block;
+}
+
+.close {
+  border-radius: 70px;
+  padding: 5px;
+  background-color: skyblue;
+}
+.close:hover {
+  cursor: pointer;
+}
+
+.dark, .あく {
+  color: #49392F;
+}
+
+.rock, .いわ {
+  color: #B8A038;
+}
+
+.psychic, .エスパー {
+  color: #F85888;
+}
+
+.fighting, .かくとう {
+  color: #C03028;
+}
+
+.grass, .くさ {
+  color: #78C850;
+}
+
+.ice, .こおり {
+  color: #98D8D8;
+}
+
+.ghost, .ゴースト {
+  color: #705898;
+}
+
+.ground, .じめん {
+  color: #E0C068;
+}
+
+.electric, .でんき {
+  color: #F8D030;
+}
+
+.poison, .どく {
+  color: #A040A0;
+}
+
+.dragon, .ドラゴン {
+  color: #7038F8;
+}
+
+.normal, .ノーマル {
+  color: #C6C6A7;
+}
+
+.steel, .はがね {
+  color: #D1D1E0;
+}
+
+.flying, .ひこう {
+  color: #9DB7F5;
+}
+
+.faily, .フェアリー {
+  color: #F4BDC9;
+}
+
+.fire, .ほのお {
+  color: #F08030;
+}
+
+.water, .みず {
+  color: #6890F0;
+}
+
+.bug, .むし {
+  color: #7bb820;
+}
+
+@keyframes pokemonAnimate {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: translate(1);
+  }
+}/*# sourceMappingURL=Card.css.map */

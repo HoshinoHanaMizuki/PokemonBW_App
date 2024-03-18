@@ -1,38 +1,57 @@
+@charset "UTF-8";
 .App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.filteringContainer {
+  text-align: center;
+}
+.filteringContainer .selectType {
+  cursor: pointer;
+}
+
+.pokemonCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btnContainer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
+  background-image: url("../public/imgs/モンスターボール_btn.png");
+  cursor: pointer;
+}
+.btn:hover {
+  animation: ball_moving 1s ease infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes ball_moving {
+  0% {
+    transform: rotate(0);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  10% {
+    transform: rotateZ(-15deg);
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    transform: rotateZ(10deg);
   }
-}
+  30% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}/*# sourceMappingURL=App.css.map */

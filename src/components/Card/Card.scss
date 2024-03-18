@@ -1,0 +1,141 @@
+$dark:#49392F;
+$rock:#B8A038;
+$psychic:#F85888;
+$fighting:#C03028;
+$grass:#78C850;
+$ice:#98D8D8;
+$ghost:#705898;
+$ground:#E0C068;
+$electric:#F8D030;
+$poison:#A040A0;
+$dragon:#7038F8;
+$normal:#C6C6A7;
+$steel:#D1D1E0;
+$flying:#9DB7F5;
+$faily:#F4BDC9;
+$fire:#F08030;
+$water:#6890F0;
+$bug:#7bb820;
+
+.card{
+    position: relative;
+    width: 290px;
+    box-shadow: 8px 18px 15px -5px #ffe5e5;
+    border-radius: 30px;
+    background-color: aliceblue;
+    
+}
+
+.voicePlayButton{
+    position: absolute;
+    top: 7%;
+    right:10%;
+}
+
+.cardImgContainer{
+    position: relative;
+    img{
+        scale: 1.2;
+        &:hover{
+            cursor: pointer;
+            animation: pokemonAnimate 2s ease 0.3s 1;
+        }
+    }
+
+    .hoverText{
+        position: absolute;
+        top: 50%;
+        left:60%;
+        transform: translate(-50% -50%);
+        font-size: 10px;
+        // font-family: ;
+        display: none;
+    }
+
+    &:hover{
+        .hoverText{
+            display: block;
+        }
+    }
+}
+.close{
+    border-radius: 70px;
+    padding: 5px;
+    background-color: skyblue;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+
+.dark,.あく{
+    color: $dark;
+}
+.rock,.いわ{
+    color: $rock;
+}
+.psychic,.エスパー{
+    color: $psychic;
+}
+.fighting,.かくとう{
+    color: $fighting;
+}
+.grass,.くさ{
+    color: $grass;
+}
+.ice,.こおり{
+    color:$ice;
+}
+.ghost,.ゴースト{
+    color: $ghost;
+}
+.ground,.じめん{
+    color: $ground;
+}
+.electric,.でんき{
+    color: $electric;
+}
+.poison,.どく{
+    color: $poison;
+}
+.dragon,.ドラゴン{
+    color: $dragon;
+}
+.normal,.ノーマル{
+    color: $normal;
+}
+.steel,.はがね{
+    color: $steel;
+}
+.flying,.ひこう{
+    color: $flying;
+}
+.faily,.フェアリー{
+    color: $faily;
+}
+.fire,.ほのお{
+    color: $fire;
+}
+.water,.みず{
+    color: $water;
+}
+.bug,.むし{
+    color: $bug;
+}
+
+
+@keyframes pokemonAnimate {
+    0%{
+        transform: scale(1);
+    }
+
+    60%{
+        transform: scale(1.4);
+    }
+    100%{
+        transform: translate(1);
+    }
+
+}

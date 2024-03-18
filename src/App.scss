@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .filteringContainer{
+    text-align: center;
+    .selectType{
+        cursor: pointer;
+    }
+  }
+  
+  .pokemonCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+    margin-top :20px;
+  }
+  .btnContainer{
+    text-align: center;
+  }
+  .btn{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px;
+    background-image: url("../public/imgs/モンスターボール_btn.png");
+    cursor: pointer;
+    &:hover{
+      animation: ball_moving 1s ease  infinite;
+    }
+  }
+  @keyframes ball_moving {
+    0%{
+      transform: rotate(0);
+    }
+    10%{
+      transform: rotateZ(-15deg);
+    }
+    20%{
+      transform: rotateZ(10deg);
+    }
+    30%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(0);
+    }
+  
+  }
