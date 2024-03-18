@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PokemonBW_App/static/css/main.3f8b8eb1.css",
+    "main.css": "/PokemonBW_App/static/css/main.33ee814c.css",
     "main.js": "/PokemonBW_App/static/js/main.04b1d239.js",
     "static/js/453.c09a555b.chunk.js": "/PokemonBW_App/static/js/453.c09a555b.chunk.js",
     "static/media/sampleVideo.mp4": "/PokemonBW_App/static/media/sampleVideo.fe0f689a987c0737203c.mp4",
     "static/media/title.png": "/PokemonBW_App/static/media/title.b2c8d6967c8a8c206dcd.png",
     "static/media/pokeback_smp.png": "/PokemonBW_App/static/media/pokeback_smp.a6b0202688c8eb46a4b0.png",
     "index.html": "/PokemonBW_App/index.html",
-    "main.3f8b8eb1.css.map": "/PokemonBW_App/static/css/main.3f8b8eb1.css.map",
+    "main.33ee814c.css.map": "/PokemonBW_App/static/css/main.33ee814c.css.map",
     "main.04b1d239.js.map": "/PokemonBW_App/static/js/main.04b1d239.js.map",
     "453.c09a555b.chunk.js.map": "/PokemonBW_App/static/js/453.c09a555b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f8b8eb1.css",
+    "static/css/main.33ee814c.css",
     "static/js/main.04b1d239.js"
   ]
 }
