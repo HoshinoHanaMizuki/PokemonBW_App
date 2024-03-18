@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PokemonBW_App/static/css/main.d3d73d26.css",
+    "main.js": "/PokemonBW_App/static/js/main.02ec3afd.js",
+    "static/js/453.c09a555b.chunk.js": "/PokemonBW_App/static/js/453.c09a555b.chunk.js",
+    "static/media/title.png": "/PokemonBW_App/static/media/title.b2c8d6967c8a8c206dcd.png",
+    "static/media/pokeback_smp.png": "/PokemonBW_App/static/media/pokeback_smp.a6b0202688c8eb46a4b0.png",
+    "index.html": "/PokemonBW_App/index.html",
+    "main.d3d73d26.css.map": "/PokemonBW_App/static/css/main.d3d73d26.css.map",
+    "main.02ec3afd.js.map": "/PokemonBW_App/static/js/main.02ec3afd.js.map",
+    "453.c09a555b.chunk.js.map": "/PokemonBW_App/static/js/453.c09a555b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3d73d26.css",
+    "static/js/main.02ec3afd.js"
+  ]
+}
