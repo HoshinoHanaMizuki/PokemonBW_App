@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/PokemonBW_App/static/css/main.0ae46138.css",
-    "main.js": "/PokemonBW_App/static/js/main.579b6cbb.js",
+    "main.css": "/PokemonBW_App/static/css/main.34e95490.css",
+    "main.js": "/PokemonBW_App/static/js/main.eb57a016.js",
     "static/js/453.c09a555b.chunk.js": "/PokemonBW_App/static/js/453.c09a555b.chunk.js",
+    "static/media/画面収録 2024-03-16 1.15.57.mov": "/PokemonBW_App/static/media/画面収録 2024-03-16 1.15.57.41ed7262275236d80de7.mov",
     "static/media/title.png": "/PokemonBW_App/static/media/title.b2c8d6967c8a8c206dcd.png",
     "static/media/pokeback_smp.png": "/PokemonBW_App/static/media/pokeback_smp.a6b0202688c8eb46a4b0.png",
     "index.html": "/PokemonBW_App/index.html",
-    "main.0ae46138.css.map": "/PokemonBW_App/static/css/main.0ae46138.css.map",
-    "main.579b6cbb.js.map": "/PokemonBW_App/static/js/main.579b6cbb.js.map",
+    "main.34e95490.css.map": "/PokemonBW_App/static/css/main.34e95490.css.map",
+    "main.eb57a016.js.map": "/PokemonBW_App/static/js/main.eb57a016.js.map",
     "453.c09a555b.chunk.js.map": "/PokemonBW_App/static/js/453.c09a555b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ae46138.css",
-    "static/js/main.579b6cbb.js"
+    "static/css/main.34e95490.css",
+    "static/js/main.eb57a016.js"
   ]
 }
